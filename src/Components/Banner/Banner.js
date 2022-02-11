@@ -1,7 +1,7 @@
 import { makeStyles,Container, Typography } from '@material-ui/core';
 import React from 'react';
 import CarouselSlider from './Carousel';
-import BannerImg from "F:/cryptocounter/cryptohunter/src/assests/BG.jpg"
+import BannerImg from "../../assests/BG.jpg"
 const useStyles = makeStyles(()=>({
     banner:{
         backgroundImage:`url(${BannerImg})`,
