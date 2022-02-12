@@ -5,6 +5,7 @@ import BannerImg from "../../assests/BG.jpg"
 const useStyles = makeStyles(()=>({
     banner:{
         backgroundImage:`url(${BannerImg})`,
+
     },
     bannerContent:{
       height:400,
@@ -37,7 +38,7 @@ const Banner = () => {
             fontFamily:"Montserrat"
           }}
           >
-            Crypto Hunter
+            Crypto Escape
           </Typography>
           <Typography
           variant="subtitle2"
